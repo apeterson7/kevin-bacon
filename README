@@ -1,0 +1,8 @@
+README
+
+Authors Michael Kemp & Alex Peterson
+
+An unweighted graph of actors and films implemented using a hashmap to associate strings with a list of associated strings (the edges) and a hashmap
+to associate each string with a vertex object in memory.  Vertexes have a boolean class member 'isActor' to distinguish between them.
+
+BaconNumber works best with Top250.txt but with larger files can take very long amounts of time to finish.  However, all methods do work correctly.
